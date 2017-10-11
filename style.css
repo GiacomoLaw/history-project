@@ -3,6 +3,7 @@ footer {
     background-color: #f1f1f1;
 }
 
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,4 +29,51 @@ li a:hover {
 
 .padding {
   padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: table;
+}
+
+nav > ul {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+nav > ul > li {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+    padding: 1em 0;
+} */
+
+@media only screen and (max-width: 512px) {
+    nav > ul > li {
+        width: 100%;
+    }
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav li:target ul {
+    display: inline;
+}
+
+li a {
+     display: block;
+     color: #000;
+     padding: 6px 14px;
+     text-decoration: none;
+}
+
+nav > ul > li > a {
+    font-weight: bold;
 }
