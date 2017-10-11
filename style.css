@@ -26,6 +26,7 @@ li a:hover {
       background-color: #555;
       color: white;
 }
+*/
 
 .padding {
   padding-left: 10px;
@@ -51,7 +52,7 @@ nav > ul > li {
     display: table-cell;
     text-align: center;
     padding: 1em 0;
-} */
+}
 
 @media only screen and (max-width: 512px) {
     nav > ul > li {
