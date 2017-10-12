@@ -34,3 +34,17 @@ li a:hover {
 .center {
   text-align: center;
 }
+
+button {
+  padding:5px 15px; 
+  background:#5ba545; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button:hover {
+    background-color: #4c7a3e;
+}
