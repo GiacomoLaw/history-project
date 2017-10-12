@@ -67,3 +67,15 @@ button:hover {
 {
     display: inline-block;
 }
+
+.vertical1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical2 {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
