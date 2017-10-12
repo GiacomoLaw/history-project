@@ -37,7 +37,7 @@ li a:hover {
 
 button {
   padding:5px 15px; 
-  background:#5ba545; 
+  background: #e5736b; 
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
@@ -46,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #4c7a3e;
+    background-color: #c96760;
 }
 
 /* button siding */
