@@ -48,3 +48,22 @@ button {
 button:hover {
     background-color: #4c7a3e;
 }
+
+/* button siding */
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
